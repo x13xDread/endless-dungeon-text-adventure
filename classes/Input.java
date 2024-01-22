@@ -69,7 +69,7 @@ public class Input {
             System.out.println(question);
             choice = input.nextLine();
         }
-        return choice;
+        return choice.toLowerCase();
     }
 
     private boolean testInput(String test){
